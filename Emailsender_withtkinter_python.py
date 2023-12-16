@@ -9,9 +9,9 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 def send_email():
-    sender_email = 'hussienmekawy38@gmail.com'
+    sender_email = 'your email'
     receiver_email = email.get()
-    password = 'yiyqjqrflwkqxntd'
+    password = 'your api email password'
     subject = "Your Subject Here"
     body = "Hello, this is an automated email from our system."
 
