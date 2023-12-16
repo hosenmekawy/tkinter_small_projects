@@ -43,9 +43,9 @@ class TelegramSender:
 root = Tk()
 root.geometry('300x200')  # Set the window size
 
-api_id = '28726419'  # Replace with your API ID
-api_hash = 'a312569db503c7e031ee77ffa1b21e6d'  # Replace with your API hash
-phone = '201099641402'  # Replace with your phone number
+api_id = 'Replace with your API ID'  # Replace with your API ID
+api_hash = 'Replace with your API hash'  # Replace with your API hash
+phone = 'your phone'  # Replace with your phone number
 
 app = TelegramSender(root, api_id, api_hash, phone)
 
